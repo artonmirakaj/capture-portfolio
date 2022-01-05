@@ -5,11 +5,11 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Amatic SC', cursive;
   }
 
   body {
     background: #1b1b1b;
-    font-family: 'Amatic SC', cursive;
   }
 
   button {
@@ -21,7 +21,6 @@ const GlobalStyle = createGlobalStyle`
     background: transparent;
     color: white;
     transition: all 0.5s ease;
-    font-family: 'Amatic SC', cursive;
 
     &:hover {
       background-color: #23d997;
@@ -40,6 +39,7 @@ const GlobalStyle = createGlobalStyle`
 
   h4 {
     font-weight: bold;
+    font-size: 2rem;
   }
 
   span {
