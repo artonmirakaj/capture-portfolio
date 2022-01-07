@@ -28,6 +28,10 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .true {    
+    color: #fee181;
+  }
+
   h2 {
     font-weight: lighter;
     font-size: 4rem;

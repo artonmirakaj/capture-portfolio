@@ -29,10 +29,10 @@ const AboutSection = () => {
             </motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>your <span>dreams</span></motion.h2>
+            <motion.h2 variants={titleAnim}>your <span>dreams </span>come</motion.h2>
           </Hide>
           <Hide>
-            <motion.h2 variants={titleAnim}>come true.</motion.h2>
+            <motion.h2 className='true' variants={titleAnim}>true.</motion.h2>
           </Hide>
         </motion.div>
         <p>Contact us for any photography or videography ideas that you have. We have professionals with amazing skills.</p>
