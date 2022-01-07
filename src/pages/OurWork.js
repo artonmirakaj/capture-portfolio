@@ -11,23 +11,23 @@ const OurWork = () => {
       <Movie>
         <h2>The Athlete</h2>
         <div className='line' />
-        {/* <Link> */}
+        <Link to='/work/the-athlete'>
           <img src={athlete} alt='athlete' />
-        {/* </Link> */}
+        </Link>
       </Movie>
       <Movie>
         <h2>The Racer</h2>
         <div className='line' />
-        {/* <Link> */}
+        <Link to='/work/the-racer'>
           <img src={theracer} alt='racer' />
-        {/* </Link> */}
+        </Link>
       </Movie>
       <Movie>
         <h2>Good Times</h2>
         <div className='line' />
-        {/* <Link> */}
+        <Link to='/work/good-times'>
           <img src={goodtimes} alt='good-times' />
-        {/* </Link> */}
+        </Link>
       </Movie>
     </Work>
   )
