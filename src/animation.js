@@ -87,3 +87,11 @@ export const scrollReveal = {
     transition: { duration: 0.5 }
   }
 }
+
+export const swoop = {
+  hidden: { width: '-20%', transition: { duration: 1 }},
+  show: {
+    width: '100%',
+    transition: { ease: 'easeOut', duration: 1 },
+  }
+}
