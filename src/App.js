@@ -7,6 +7,7 @@ import OurWork from "./pages/OurWork";
 import { Route, Routes, useLocation } from 'react-router-dom'
 import MovieDetail from "./pages/MovieDetail";
 import { AnimatePresence } from "framer-motion";
+import ScrollTop from "./components/ScrollTop";
 
 function App() {
   const location = useLocation();
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
+      <ScrollTop />
       <Nav />
       <AnimatePresence exitBeforeEnter>
         <Routes location={location} key={location.pathname}>
