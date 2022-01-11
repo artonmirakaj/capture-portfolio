@@ -69,6 +69,9 @@ const Services = styled(About)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  @media screen and (max-width: 1200px) {
+    justify-content: center;
+  }
 `;
 
 const Card = styled.div`

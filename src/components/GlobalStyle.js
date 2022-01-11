@@ -9,6 +9,12 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
   }
 
+  html {
+    @media screen and (max-width: 1200px) {
+      font-size: 80%;
+    }
+  }
+
   body {
     background: #1b1b1b;
   }
